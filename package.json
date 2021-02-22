@@ -1,0 +1,23 @@
+{
+  "name": "introtonode",
+  "version": "1.0.0",
+  "description": "Course work for Linux Foundation Introduction to Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdcaulley/introtonode.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sdcaulley/introtonode/issues"
+  },
+  "homepage": "https://github.com/sdcaulley/introtonode#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "standard": "^16.0.3"
+  }
+}
