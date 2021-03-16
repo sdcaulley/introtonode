@@ -2,10 +2,13 @@
 const path = require('path')
 const AutoLoad = require('fastify-autoload')
 const cors = require('fastify-cors')
+const websocket = require('fastify-websocket')
 
 module.exports = async function (fastify, opts) {
   // Place here your custom code!
   fastify.register(cors)
+  fastify.register(websocket)
+  fastify.register(require(__dirname + '/plugins/data-utils'))
 
   // Do not touch the following lines
   // This loads all plugins defined in plugins
@@ -22,6 +25,4 @@ module.exports = async function (fastify, opts) {
     dir: path.join(__dirname, 'routes'),
     options: Object.assign({}, opts)
   })
-
-  fastify.register(require(__dirname + '/plugins/data-utils'))
 }
