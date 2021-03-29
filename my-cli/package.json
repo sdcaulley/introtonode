@@ -1,0 +1,22 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "./cmd.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-escapes": "^4.3.2",
+    "chalk": "^4.1.0",
+    "commist": "^1.1.0",
+    "enquirer": "^2.3.6",
+    "got": "^11.8.2",
+    "minimist": "^1.2.5"
+  }
+}
